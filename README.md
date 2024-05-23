@@ -6,7 +6,7 @@
 
 ## Содержание
 
-- [Описание]
+- [Описание](#описание)
 - [Требования]
 - [Установка]
 - [Использование]
@@ -33,11 +33,11 @@
 
 ## Использование
 
-1. Поместите ваш текстовый файл с данными в папку src/main/resources/.
+1. Поместите ваш текстовый файл 'myfile.txt' с данными в папку src/main/resources/.
 
 2. Запустите основной класс проекта:
    ```sh
-   mvn exec:java -Dexec.mainClass="tz2.Main" -Dexec.args="src/main/resources/yourfile.txt"
+   mvn exec:java -Dexec.mainClass="tz2.Main" -Dexec.args="src/main/resources/myfile.txt"
    ```
 3. Класс Main выполнит следующие операции над данными из файла:
 
