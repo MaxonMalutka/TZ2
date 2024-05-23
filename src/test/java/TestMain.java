@@ -132,23 +132,23 @@ public class TestMain {
             fail("Exception " + e.getMessage());
         }
     }
+    // Ниже я получал данные для графика
+    // @Test
+    // public void graphic() {
+    //     try {
+    //         for (int i = 5; i < 105; i++) {
+    //             String path = "src/main/resources/test" + i + ".txt";
+    //             Main main = new Main(path);
 
-    @Test
-    public void graphic() {
-        try {
-            for (int i = 5; i < 105; i++) {
-                String path = "src/main/resources/test" + i + ".txt";
-                Main main = new Main(path);
+    //             long start = System.nanoTime();
 
-                long start = System.nanoTime();
+    //             main._sum();
 
-                main._sum();
-
-                long end = System.nanoTime();
-                System.out.println(end - start);
-            }
-        } catch (Exception e) {
-            fail("Exception " + e.getMessage());
-        }
-    }
+    //             long end = System.nanoTime();
+    //             System.out.println(end - start);
+    //         }
+    //     } catch (Exception e) {
+    //         fail("Exception " + e.getMessage());
+    //     }
+    // }
 }
