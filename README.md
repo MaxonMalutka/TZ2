@@ -1,5 +1,5 @@
-![Java CI with Maven](https://github.com/MaxonMalutka/TZ2/actions/workflows/maven.yml/badge.svg)
 # TZ2 by Maxim Romanov, student of group 232 of the Bachelor's educational program Business Informatics HSE Graduate School of Business
+![Java CI with Maven](https://github.com/MaxonMalutka/TZ2/actions/workflows/maven.yml/badge.svg)
 
 ## Описание
 
